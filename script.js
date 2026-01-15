@@ -32,13 +32,12 @@ function startTest() {
   // Náhodný výběr 30 otázek z celkových 126
   chosenQuestions = allQuestions
     .sort(() => Math.random() - 0.5)
-    .slice(0, 30)
-    .map(q => ({ ...q, selected: null }));
+    .slice(0, 30); // Tady chyběla závorka a středník!
 
-  startScreen.classList.add('hidden');
-  testScreen.classList.remove('hidden');
   currentQ = 0;
   score = 0;
+  startScreen.classList.add('hidden');
+  testScreen.classList.remove('hidden');
   showQuestion();
 }
 
@@ -116,4 +115,5 @@ function showResults() {
 function restartTest() {
   resultScreen.classList.add('hidden');
   startScreen.classList.remove('hidden');
+
 }
