@@ -19,6 +19,3 @@ PROŠEL / NEPROŠEL (hranice 75 %)
 
 přehled špatných odpovědí s vysvětlením
 
-📱 Responzivní design – funguje na PC i mobilu
-
-🔄 Restart testu kdykoliv
