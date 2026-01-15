@@ -105,12 +105,12 @@ const allQuestions = [
     "vysvetleni": "Maximální povolená výška letu v kategorii OPEN je 120 metrů nad zemí[cite: 1431, 1434, 1436]."
   },
   {
-    "id": 16,
-    "otazka": "Jaká je minimální vzdálenost od nezapojené osoby v A2 (bez štítku C)?",
-    "moznosti": ["30 m", "40 m", "50 m", "60 m"],
-    "odpoved": "50 m",
-    "vysvetleni": "Pro drony bez štítku třídy C je v kategorii A2 stanovena vzdálenost 50 metrů[cite: 1437, 1440, 1442]."
-  },
+  "id": 16,
+  "otazka": "Jaká je minimální vzdálenost od nezapojené osoby v A2 (bez štítku C)?",
+  "moznosti": ["30 m", "40 m", "50 m", "60 m"],
+  "odpoved": "50 m",
+  "vysvetleni": "Starší drony bez štítku (tzv. Legacy drony):<br>• Drony do 249 g -> Kategorie A1.<br>• Drony nad 250 g -> Kategorie A3.<br>• <strong>Výjimka:</strong> Pokud máš licenci A2 a dron váží do 2 kg, můžeš v A2 létat s odstupem 50 m od lidí. Neplatí pro vlastní stavby modelů"
+}
   {
     "id": 17,
     "otazka": "Jaký je minimální věk pilota UA pro kategorii OPEN?",
@@ -123,7 +123,7 @@ const allQuestions = [
     "otazka": "Jak se jmenuje největší zeměpisná zóna v ČR?",
     "moznosti": ["LKR8", "LKR10", "LKR5", "LKR7"],
     "odpoved": "LKR10",
-    "vysvetleni": "Prostor LKR10 — UAS slouží k vymezení zeměpisných zón a ochraně území ČR[cite: 1003]."
+    "vysvetleni": "Od 1. září 2025 došlo k zásadní změně regulace dronů v ČR: původní prostor LKR10 (LKR10-UAS) byl nahrazen modulárním systémem LKR310 (LKR310-UAS), který zavádí 10 specializovaných zón s detailnějšími pravidly pro létání (např. železnice, elektrická vedení, hustě osídlené oblasti, chráněná území), což místo celoplošného zákazu umožňuje specifičtější omezení i povolení, a piloti musí používat digitální mapy pro orientaci.[cite: 1003]."
   },
   {
     "id": 19,
@@ -295,10 +295,10 @@ const allQuestions = [
   },
   {
     "id": 43,
-    "otazka": "K čemu slouží zřízený Omezený prostor LKR10 - UAS?",
+    "otazka": "K čemu slouží zřízený Omezený prostor LKR310 - UAS?",
     "moznosti": ["Provoz pouze pro komerční drony", "Zákaz létání v ČR", "Implementace geografických zón pro úpravu podmínek provozu", "Ochrana letišť"],
     "odpoved": "Implementace geografických zón pro úpravu podmínek provozu",
-    "vysvetleni": "LKR10 slouží k vymezení zón, kde platí specifická pravidla pro drony v souladu s EU legislativou."
+    "vysvetleni": "Modulární systém LKR310-UAS – Zahrnuje 10 typů zón (LKR311, LKR312 atd.), které mají jasně definované podmínky.. Náhrada za LKR10 - UAS"
   },
   {
     "id": 44,
@@ -882,4 +882,5 @@ const allQuestions = [
     "vysvetleni": "Pro A2 musí pilot prokázat vyšší úroveň znalostí než pro základní A1/A3."
   },
   
+
     ]
