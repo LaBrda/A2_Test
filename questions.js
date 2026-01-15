@@ -110,7 +110,7 @@ const allQuestions = [
   "moznosti": ["30 m", "40 m", "50 m", "60 m"],
   "odpoved": "50 m",
   "vysvetleni": "Starší drony bez štítku (tzv. Legacy drony):<br>• Drony do 249 g -> Kategorie A1.<br>• Drony nad 250 g -> Kategorie A3.<br>• <strong>Výjimka:</strong> Pokud máš licenci A2 a dron váží do 2 kg, můžeš v A2 létat s odstupem 50 m od lidí. Neplatí pro vlastní stavby modelů"
-}
+  },
   {
     "id": 17,
     "otazka": "Jaký je minimální věk pilota UA pro kategorii OPEN?",
@@ -884,4 +884,5 @@ const allQuestions = [
   
 
     ]
+
 
