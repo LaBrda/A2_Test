@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A2 Drone Theory Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>A2 Drone Test – Studijní simulace</h1>
+    <div id="start-screen">
+      <p>Počet otázek testu: <span id="total"></span></p>
+      <button id="start-btn">Začít test</button>
+    </div>
+    <div id="test-screen" class="hidden">
+      <div id="question-container">
+        <div id="question-number"></div>
+        <div id="question-text"></div>
+        <div id="answers"></div>
+      </div>
+      <button id="next-btn">Další</button>
+    </div>
+    <div id="result-screen" class="hidden">
+      <h2>Výsledky testu</h2>
+      <p id="score"></p>
+      <p id="percentage"></p>
+      <p id="passfail"></p>
+      <div id="review"></div>
+      <button id="restart-btn">Restartovat test</button>
+    </div>
+  </div>
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
