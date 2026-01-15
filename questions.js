@@ -1,4 +1,4 @@
-[
+const allQuestions = [ 
   {
     "id": 1,
     "otazka": "Jak se mění vítr s nadmořskou výškou?",
