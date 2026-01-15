@@ -121,8 +121,8 @@ const allQuestions = [
   {
     "id": 18,
     "otazka": "Jak se jmenuje největší zeměpisná zóna v ČR?",
-    "moznosti": ["LKR8", "LKR10", "LKR5", "LKR7"],
-    "odpoved": "LKR10",
+    "moznosti": ["LKR8", "LKR310", "LKR5", "LKR7"],
+    "odpoved": "LKR310",
     "vysvetleni": "Od 1. září 2025 došlo k zásadní změně regulace dronů v ČR: původní prostor LKR10 (LKR10-UAS) byl nahrazen modulárním systémem LKR310 (LKR310-UAS), který zavádí 10 specializovaných zón s detailnějšími pravidly pro létání (např. železnice, elektrická vedení, hustě osídlené oblasti, chráněná území), což místo celoplošného zákazu umožňuje specifičtější omezení i povolení, a piloti musí používat digitální mapy pro orientaci.[cite: 1003]."
   },
   {
@@ -884,3 +884,4 @@ const allQuestions = [
   
 
     ]
+
